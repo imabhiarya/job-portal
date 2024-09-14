@@ -67,7 +67,7 @@ function Navbar() {
                                 <div className='flex flex-col gap-3 my-2 text-gray-600'>
                                     <div className='flex w-fit items-center gap-2 cursor-pointer outline-none'>
                                         <User2 />
-                                        <Button variant="link">Profile</Button>
+                                        <Button variant="link"> <Link to='/profile'>View Profile</Link></Button>
                                     </div>
                                     <div className='flex w-fit gap-2 items-center cursor-pointer'>
                                         <LogOut />
