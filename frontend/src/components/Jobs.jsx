@@ -20,7 +20,7 @@ function Jobs() {
                 <div className='grid grid-cols-3 gap-4'>
                   {
                     jobsArray.map((item, index) => (
-                      <div>
+                      <div key={index}>
                         <Job />
                       </div>
                     ))

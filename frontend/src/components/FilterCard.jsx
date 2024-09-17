@@ -29,7 +29,7 @@ function FilterCard() {
         <RadioGroup>
             {
                 fitlerData.map((data, index) => (
-                    <div>
+                    <div key={index}>
                         <h1>{data.fitlerType}</h1>
                         {
                             data.array.map((item, index) => {
